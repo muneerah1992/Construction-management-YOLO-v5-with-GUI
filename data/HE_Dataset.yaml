@@ -1,0 +1,6 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bull_dozer', 'Dumb_truck', 'Excavator', 'Grader', 'Loader', 'Mobile_crane', 'Roller']
