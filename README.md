@@ -11,7 +11,7 @@ Model YOLO-v5 was taken from the original author [Github repository](https://git
 In the terminal, cd to the project file and install all the required packagaes by running the following line:
 
 ```bash
-!pip install -qr requirements.txt
+pip install -qr requirements.txt
 ```
 
 #### Run the detection model
