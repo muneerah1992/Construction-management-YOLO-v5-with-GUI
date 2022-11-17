@@ -53,7 +53,7 @@ from utils.torch_utils import select_device, smart_inference_mode
 
 def get_weather_data():
     r = req.get(
-        "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=c284001cdeafab2ff93844fa06e17725")
+        "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=<API-Key>")
     data = r.json()
     windspeed = round(data['wind']['speed'] / 1000 * 3600, 2)
     windgust = round(data['wind']['gust'] / 1000 * 3600, 2)
